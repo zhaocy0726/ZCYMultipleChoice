@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE78C0ED1B71E4C100E850C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78C0EC1B71E4C100E850C4 /* main.m */; };
+		FE78C0F01B71E4C100E850C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78C0EF1B71E4C100E850C4 /* AppDelegate.m */; };
+		FE78C0F31B71E4C100E850C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78C0F21B71E4C100E850C4 /* ViewController.m */; };
+		FE78C0F61B71E4C100E850C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE78C0F41B71E4C100E850C4 /* Main.storyboard */; };
+		FE78C0F81B71E4C100E850C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE78C0F71B71E4C100E850C4 /* Images.xcassets */; };
+		FE78C0FB1B71E4C100E850C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE78C0F91B71E4C100E850C4 /* LaunchScreen.xib */; };
+		FE78C1071B71E4C100E850C4 /* ZCYMultipleChoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78C1061B71E4C100E850C4 /* ZCYMultipleChoiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE78C1011B71E4C100E850C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE78C0DF1B71E4C100E850C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE78C0E61B71E4C100E850C4;
+			remoteInfo = ZCYMultipleChoice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE78C0E71B71E4C100E850C4 /* ZCYMultipleChoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCYMultipleChoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE78C0EB1B71E4C100E850C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE78C0EC1B71E4C100E850C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE78C0EE1B71E4C100E850C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE78C0EF1B71E4C100E850C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE78C0F11B71E4C100E850C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE78C0F21B71E4C100E850C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE78C0F51B71E4C100E850C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE78C0F71B71E4C100E850C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE78C0FA1B71E4C100E850C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE78C1001B71E4C100E850C4 /* ZCYMultipleChoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCYMultipleChoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE78C1051B71E4C100E850C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE78C1061B71E4C100E850C4 /* ZCYMultipleChoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCYMultipleChoiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE78C0E41B71E4C100E850C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE78C0FD1B71E4C100E850C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE78C0DE1B71E4C100E850C4 = {
+			isa = PBXGroup;
+			children = (
+				FE78C0E91B71E4C100E850C4 /* ZCYMultipleChoice */,
+				FE78C1031B71E4C100E850C4 /* ZCYMultipleChoiceTests */,
+				FE78C0E81B71E4C100E850C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE78C0E81B71E4C100E850C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE78C0E71B71E4C100E850C4 /* ZCYMultipleChoice.app */,
+				FE78C1001B71E4C100E850C4 /* ZCYMultipleChoiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE78C0E91B71E4C100E850C4 /* ZCYMultipleChoice */ = {
+			isa = PBXGroup;
+			children = (
+				FE78C0EE1B71E4C100E850C4 /* AppDelegate.h */,
+				FE78C0EF1B71E4C100E850C4 /* AppDelegate.m */,
+				FE78C0F11B71E4C100E850C4 /* ViewController.h */,
+				FE78C0F21B71E4C100E850C4 /* ViewController.m */,
+				FE78C0F41B71E4C100E850C4 /* Main.storyboard */,
+				FE78C0F71B71E4C100E850C4 /* Images.xcassets */,
+				FE78C0F91B71E4C100E850C4 /* LaunchScreen.xib */,
+				FE78C0EA1B71E4C100E850C4 /* Supporting Files */,
+			);
+			path = ZCYMultipleChoice;
+			sourceTree = "<group>";
+		};
+		FE78C0EA1B71E4C100E850C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE78C0EB1B71E4C100E850C4 /* Info.plist */,
+				FE78C0EC1B71E4C100E850C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE78C1031B71E4C100E850C4 /* ZCYMultipleChoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE78C1061B71E4C100E850C4 /* ZCYMultipleChoiceTests.m */,
+				FE78C1041B71E4C100E850C4 /* Supporting Files */,
+			);
+			path = ZCYMultipleChoiceTests;
+			sourceTree = "<group>";
+		};
+		FE78C1041B71E4C100E850C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE78C1051B71E4C100E850C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE78C0E61B71E4C100E850C4 /* ZCYMultipleChoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE78C10A1B71E4C100E850C4 /* Build configuration list for PBXNativeTarget "ZCYMultipleChoice" */;
+			buildPhases = (
+				FE78C0E31B71E4C100E850C4 /* Sources */,
+				FE78C0E41B71E4C100E850C4 /* Frameworks */,
+				FE78C0E51B71E4C100E850C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCYMultipleChoice;
+			productName = ZCYMultipleChoice;
+			productReference = FE78C0E71B71E4C100E850C4 /* ZCYMultipleChoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE78C0FF1B71E4C100E850C4 /* ZCYMultipleChoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE78C10D1B71E4C100E850C4 /* Build configuration list for PBXNativeTarget "ZCYMultipleChoiceTests" */;
+			buildPhases = (
+				FE78C0FC1B71E4C100E850C4 /* Sources */,
+				FE78C0FD1B71E4C100E850C4 /* Frameworks */,
+				FE78C0FE1B71E4C100E850C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE78C1021B71E4C100E850C4 /* PBXTargetDependency */,
+			);
+			name = ZCYMultipleChoiceTests;
+			productName = ZCYMultipleChoiceTests;
+			productReference = FE78C1001B71E4C100E850C4 /* ZCYMultipleChoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE78C0DF1B71E4C100E850C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = zhaochunyang;
+				TargetAttributes = {
+					FE78C0E61B71E4C100E850C4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FE78C0FF1B71E4C100E850C4 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FE78C0E61B71E4C100E850C4;
+					};
+				};
+			};
+			buildConfigurationList = FE78C0E21B71E4C100E850C4 /* Build configuration list for PBXProject "ZCYMultipleChoice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE78C0DE1B71E4C100E850C4;
+			productRefGroup = FE78C0E81B71E4C100E850C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE78C0E61B71E4C100E850C4 /* ZCYMultipleChoice */,
+				FE78C0FF1B71E4C100E850C4 /* ZCYMultipleChoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE78C0E51B71E4C100E850C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE78C0F61B71E4C100E850C4 /* Main.storyboard in Resources */,
+				FE78C0FB1B71E4C100E850C4 /* LaunchScreen.xib in Resources */,
+				FE78C0F81B71E4C100E850C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE78C0FE1B71E4C100E850C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE78C0E31B71E4C100E850C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE78C0F31B71E4C100E850C4 /* ViewController.m in Sources */,
+				FE78C0F01B71E4C100E850C4 /* AppDelegate.m in Sources */,
+				FE78C0ED1B71E4C100E850C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE78C0FC1B71E4C100E850C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE78C1071B71E4C100E850C4 /* ZCYMultipleChoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE78C1021B71E4C100E850C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE78C0E61B71E4C100E850C4 /* ZCYMultipleChoice */;
+			targetProxy = FE78C1011B71E4C100E850C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE78C0F41B71E4C100E850C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE78C0F51B71E4C100E850C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE78C0F91B71E4C100E850C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE78C0FA1B71E4C100E850C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE78C1081B71E4C100E850C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE78C1091B71E4C100E850C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE78C10B1B71E4C100E850C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCYMultipleChoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE78C10C1B71E4C100E850C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCYMultipleChoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE78C10E1B71E4C100E850C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZCYMultipleChoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCYMultipleChoice.app/ZCYMultipleChoice";
+			};
+			name = Debug;
+		};
+		FE78C10F1B71E4C100E850C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZCYMultipleChoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCYMultipleChoice.app/ZCYMultipleChoice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE78C0E21B71E4C100E850C4 /* Build configuration list for PBXProject "ZCYMultipleChoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE78C1081B71E4C100E850C4 /* Debug */,
+				FE78C1091B71E4C100E850C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE78C10A1B71E4C100E850C4 /* Build configuration list for PBXNativeTarget "ZCYMultipleChoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE78C10B1B71E4C100E850C4 /* Debug */,
+				FE78C10C1B71E4C100E850C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE78C10D1B71E4C100E850C4 /* Build configuration list for PBXNativeTarget "ZCYMultipleChoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE78C10E1B71E4C100E850C4 /* Debug */,
+				FE78C10F1B71E4C100E850C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE78C0DF1B71E4C100E850C4 /* Project object */;
+}
