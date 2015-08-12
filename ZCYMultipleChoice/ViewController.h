@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSMutableArray *arrayPersons; // 所有人
 
 @end
 

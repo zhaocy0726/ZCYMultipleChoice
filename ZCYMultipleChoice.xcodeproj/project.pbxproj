@@ -14,6 +14,12 @@
 		FE78C0F81B71E4C100E850C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE78C0F71B71E4C100E850C4 /* Images.xcassets */; };
 		FE78C0FB1B71E4C100E850C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE78C0F91B71E4C100E850C4 /* LaunchScreen.xib */; };
 		FE78C1071B71E4C100E850C4 /* ZCYMultipleChoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78C1061B71E4C100E850C4 /* ZCYMultipleChoiceTests.m */; };
+		FE78C1121B71EE0900E850C4 /* PersonsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78C1111B71EE0900E850C4 /* PersonsListCell.m */; };
+		FECE69281B7202C00013BA1B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE69271B7202C00013BA1B /* CoreData.framework */; };
+		FECE692C1B7306AE0013BA1B /* SelectedPersonsCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE692A1B7306AE0013BA1B /* SelectedPersonsCollectionCell.m */; };
+		FECE69691B734A8C0013BA1B /* SelectedPersonsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECE69681B734A8C0013BA1B /* SelectedPersonsCollectionCell.xib */; };
+		FECE696F1B7475ED0013BA1B /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE696E1B7475ED0013BA1B /* NSString+Util.m */; };
+		FECE69721B747E7A0013BA1B /* PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE69711B747E7A0013BA1B /* PinYin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,16 @@
 		FE78C1001B71E4C100E850C4 /* ZCYMultipleChoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCYMultipleChoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE78C1051B71E4C100E850C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE78C1061B71E4C100E850C4 /* ZCYMultipleChoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCYMultipleChoiceTests.m; sourceTree = "<group>"; };
+		FE78C1101B71EE0900E850C4 /* PersonsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonsListCell.h; sourceTree = "<group>"; };
+		FE78C1111B71EE0900E850C4 /* PersonsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonsListCell.m; sourceTree = "<group>"; };
+		FECE69271B7202C00013BA1B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FECE69291B7306AE0013BA1B /* SelectedPersonsCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedPersonsCollectionCell.h; sourceTree = "<group>"; };
+		FECE692A1B7306AE0013BA1B /* SelectedPersonsCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedPersonsCollectionCell.m; sourceTree = "<group>"; };
+		FECE69681B734A8C0013BA1B /* SelectedPersonsCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedPersonsCollectionCell.xib; sourceTree = "<group>"; };
+		FECE696D1B7475ED0013BA1B /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		FECE696E1B7475ED0013BA1B /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		FECE69701B747E7A0013BA1B /* PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin.h; sourceTree = "<group>"; };
+		FECE69711B747E7A0013BA1B /* PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECE69281B7202C00013BA1B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 		FE78C0DE1B71E4C100E850C4 = {
 			isa = PBXGroup;
 			children = (
+				FECE69271B7202C00013BA1B /* CoreData.framework */,
 				FE78C0E91B71E4C100E850C4 /* ZCYMultipleChoice */,
 				FE78C1031B71E4C100E850C4 /* ZCYMultipleChoiceTests */,
 				FE78C0E81B71E4C100E850C4 /* Products */,
@@ -83,9 +101,18 @@
 			children = (
 				FE78C0EE1B71E4C100E850C4 /* AppDelegate.h */,
 				FE78C0EF1B71E4C100E850C4 /* AppDelegate.m */,
+				FECE69701B747E7A0013BA1B /* PinYin.h */,
+				FECE69711B747E7A0013BA1B /* PinYin.m */,
+				FECE696D1B7475ED0013BA1B /* NSString+Util.h */,
+				FECE696E1B7475ED0013BA1B /* NSString+Util.m */,
 				FE78C0F11B71E4C100E850C4 /* ViewController.h */,
 				FE78C0F21B71E4C100E850C4 /* ViewController.m */,
 				FE78C0F41B71E4C100E850C4 /* Main.storyboard */,
+				FE78C1101B71EE0900E850C4 /* PersonsListCell.h */,
+				FE78C1111B71EE0900E850C4 /* PersonsListCell.m */,
+				FECE69291B7306AE0013BA1B /* SelectedPersonsCollectionCell.h */,
+				FECE692A1B7306AE0013BA1B /* SelectedPersonsCollectionCell.m */,
+				FECE69681B734A8C0013BA1B /* SelectedPersonsCollectionCell.xib */,
 				FE78C0F71B71E4C100E850C4 /* Images.xcassets */,
 				FE78C0F91B71E4C100E850C4 /* LaunchScreen.xib */,
 				FE78C0EA1B71E4C100E850C4 /* Supporting Files */,
@@ -201,6 +228,7 @@
 			files = (
 				FE78C0F61B71E4C100E850C4 /* Main.storyboard in Resources */,
 				FE78C0FB1B71E4C100E850C4 /* LaunchScreen.xib in Resources */,
+				FECE69691B734A8C0013BA1B /* SelectedPersonsCollectionCell.xib in Resources */,
 				FE78C0F81B71E4C100E850C4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE78C0F31B71E4C100E850C4 /* ViewController.m in Sources */,
+				FECE696F1B7475ED0013BA1B /* NSString+Util.m in Sources */,
 				FE78C0F01B71E4C100E850C4 /* AppDelegate.m in Sources */,
+				FECE69721B747E7A0013BA1B /* PinYin.m in Sources */,
+				FECE692C1B7306AE0013BA1B /* SelectedPersonsCollectionCell.m in Sources */,
 				FE78C0ED1B71E4C100E850C4 /* main.m in Sources */,
+				FE78C1121B71EE0900E850C4 /* PersonsListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +375,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ZCYMultipleChoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +387,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ZCYMultipleChoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +448,7 @@
 				FE78C10C1B71E4C100E850C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE78C10D1B71E4C100E850C4 /* Build configuration list for PBXNativeTarget "ZCYMultipleChoiceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				FE78C10F1B71E4C100E850C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
